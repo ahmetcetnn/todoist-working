@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+body{
+  margin-left: 44vh;
+  /* background-color: rgb(105, 105, 134); */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+  height: 10vh;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.section{
+  display: flex;
+  flex-direction: row;
+}
+.login{
   display: flex;
   flex-direction: column;
+  width: 60vh;
+  height: 70vh;
+  
+}
+.fotosection{
+  margin-left: 15vh;
+  width: 60vh;
+  margin-top: 15vh;
+}
+img{
+  width: 100%;
+}
+button{
+  border: 1px solid  ;
+  border-radius: 7px;
+  height: 7vh;
+  box-sizing: border-box;
   align-items: center;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100%;
+  background-color: rgb(0,0,0,0);
+  margin-top: 8px;
+  white-space: nowrap;
+  transition-property: inherit;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 5px;
+  cursor: pointer;
+}
+input{
+  border: 1px solid;
+  border-radius: 7px;
+  height: 7vh;
+  max-width: 99%;
+  margin-bottom: 8px;
+  text-align: center;
+}
+#turuncu{
+  background-color: rgb(203, 81, 36);
   color: white;
+  border: 1px ;
+  border-radius: 7px;
+  height: 7vh;
+  width: 100%;
 }
-
-.App-link {
-  color: #61dafb;
+.logon{
+  width: 24vh;
+  height: 18vh;
+  
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo{
+  width: 30vh;
+  
 }
