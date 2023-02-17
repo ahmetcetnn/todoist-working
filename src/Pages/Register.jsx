@@ -7,7 +7,7 @@ import {DiApple} from "react-icons/di"
 import Todoist from './Todoist'
 function Userpage() {
   return (
-    <div >
+    <div className='general' >
       <div className='logon'> <Todoist/></div>
       <h1> Kayıt Ol</h1>
 
