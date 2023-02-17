@@ -70,3 +70,20 @@ input{
   width: 30vh;
   
 }
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+li{
+  list-style: none ;
+  margin-right: 14px;
+}
+.navitems{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 5vh;
+  margin-right: 30vh;
+
+}

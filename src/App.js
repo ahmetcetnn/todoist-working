@@ -1,13 +1,13 @@
-import Userpage from './Components/Userpage'
-import Todoist from './Components/Todoist';
-
+import Userpage from './Pages/Userpage'
+import Todoist from './Pages/Todoist';
 import './App.css';
+import Homepage from './Pages/Homepage';
 
 function App() {
   return (
     <div >
      
-     <Userpage/>
+     <Homepage/>
 
 
     </div>
