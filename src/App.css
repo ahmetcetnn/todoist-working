@@ -130,9 +130,11 @@ h1{
   float: right;
 }
 .homepage__parttwo{
-  height: 100vh;
+  height: 80vh;
   display: inline;
   float: left;
+  width: max-content;
+  width: fit-content;
   
 }
 #hpptwoleft{
@@ -140,6 +142,42 @@ h1{
   margin-right: 0px;
 }
 .homepage__partthree{
-  height: 250vh;
-  
+ display: flex;
+ flex-direction: row;
+  width: max-content;
+  height: 70vh;
+
+}
+
+.partthree{
+  display: flex;
+  flex-direction: row;
+
+}
+#ptpicone{
+  width: 60vh;
+  margin-left: 15vh;
+}
+.partthreetext{
+  width: 50vh;
+  margin-left: 40vh;
+}
+#partthreeh{
+  font-size: 2em;
+  font-style: bold;
+}
+.homepage__partfour{
+  display: flex;
+  flex-direction: row;
+   width: max-content;
+}
+#partfourpic{
+  width: 60vh;
+}
+.partfourphoto{
+  margin-left: 34vh;
+}
+.partfourtext{
+  width: 50vh;
+  margin-left: 10vh;
 }
