@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import homepageparttwo from "../images/homepageparttwo.avif";
 import homepageparttwoleft from "../images/homepageparttwoleft.webp";
 import homepageparttworight from "../images/homepageparttworight.webp";
-import Homepagepartthree from "./Homepagepartthree";
 import partthreepicone from "../images/partthreepicone.webp";
 import homepagepartfourpic from "../images/homepagepartfourpic.webp"
 
@@ -12,7 +11,7 @@ function Homepage() {
   return (
     <div className="homegeneral">
       <div className="navbar">
-        <Todoist />
+       <Link to="/"><Todoist /></Link> 
         <div className="navitems">
           <li>Özellikler</li>
           <li>Şablonlar</li>

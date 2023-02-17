@@ -8,7 +8,7 @@ import Todoist from './Todoist'
 function Userpage() {
   return (
     <div className='general' >
-      <div className='logon'> <Todoist/></div>
+      <div className='logon'> <Link to="/"><Todoist /></Link> </div>
       <h1> Kayıt Ol</h1>
 
         <div className='section'>
