@@ -1,9 +1,9 @@
 import React from 'react'
-import todologo from '../images/todologo.png'
+import todologoo from '../images/todologoo.png'
 function Todoist() {
   return (
     <div className='logo'>
-        <img src={todologo} alt="foto"/>
+        <img src={todologoo} alt="foto"/>
     </div>
   )
 }

@@ -1,8 +1,9 @@
 import React from 'react'
 import Todoist from './Todoist'
+import { Link } from 'react-router-dom'
 function Homepage() {
   return (
-    <div>
+    <div className='homegeneral'>
             <div className='navbar'>
                  <Todoist/>
                 <div className='navitems'>

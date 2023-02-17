@@ -7,7 +7,7 @@ import Todoist from './Todoist'
 import { Link } from 'react-router-dom'
 function Userpage() {
   return (
-    <div >
+    <div className='general'>
         <div className='logon'> <Todoist/></div>
       <h1> Giriş Yap</h1>
 
