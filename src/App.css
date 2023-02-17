@@ -83,7 +83,12 @@ input{
 li{
   list-style: none ;
   margin-right: 25px;
+  display: inline-flex;
 }
+a:link {
+  text-decoration: none;
+}
+
 .navitems{
   display: flex;
   flex-direction: row;
@@ -91,4 +96,50 @@ li{
   margin-top: 5vh;
   margin-right: 30vh;
 
+}
+.homepage__partone{
+  height: 50vh;
+  text-align: center;
+  margin-top: 15vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#homepagebtn{
+  width: 28vh;
+  background-color: orangered;
+  color: white;
+  box-sizing: border-box;
+  border: 1px solid  ;
+  border-radius: 7px;
+  cursor: pointer;
+}
+h1{
+  font-size:4em;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+#hpptwo{
+  width: 130vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  float: right;
+}
+.homepage__parttwo{
+  height: 100vh;
+  display: inline;
+  float: left;
+  
+}
+#hpptwoleft{
+  width: 50vh;
+  margin-right: 0px;
+}
+.homepage__partthree{
+  height: 250vh;
+  
 }
