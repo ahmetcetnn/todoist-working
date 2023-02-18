@@ -14,7 +14,7 @@ function Homepage() {
        <Link to="/"><Todoist /></Link> 
         <div className="navitems">
           <li>Özellikler</li>
-          <li>Şablsonlar</li>
+          <li>Şablonlar</li>
           <li>Ekipler İçin</li>
           <li>Ücretlendirme</li>
           <li>|</li>
