@@ -15,7 +15,7 @@ function Homepage() {
         <div className="navitems">
           <li>Özellikler</li>
           <li>Şablonlsar</li>
-          <li>Ekipssler İçin</li>
+          <li>Ekipsssler İçin</li>
           <li>Ücretlendirme</li>
           <li>|</li>
           <li>
